@@ -20,7 +20,7 @@ export default{
     </div> 
     <div class="p d-flex align-items-center ">
         <div class="container d-flex justify-content-between align-items-center">
-            <div class="col-7 footerF d-flex ">
+            <div class="col-7 footerF d-flex pt-5 pb-5 ">
                 <div class="col-3 d-flex flex-column">
                     <h2 class="fs-4 mb-2">DC COMICS</h2>
                     <span>Character</span>
@@ -85,13 +85,11 @@ export default{
 .h{
     height: 10rem;
 }
-.containerImg{
 
-}
 .p{
     background-image: url(/img/footer-bg.jpg);
     background-color: black;
-    height: 25rem;
+    height: 28rem;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -119,7 +117,7 @@ span{
 a{
     background-color: rgb(48, 48, 48);
     border:3px solid;
-    border-color:  rgb(58, 58, 255);
+    border-color:  rgb(22, 130, 246);
     padding: 0.5rem;
     text-decoration: none;
 }
